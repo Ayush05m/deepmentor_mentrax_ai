@@ -1,121 +1,444 @@
 [
     [
-        "Chapter 1: Introduction to Physics",
+        "Introduction",
         {
-            "1.1 What Is Physics?": "1",
-            "1.2 Physics and Mathematics": "1",
-            "1.3 Units": "2",
-            "1.4 Definitions of Base Units": "3",
-            "1.5 Dimension": "4",
-            "1.6 Uses of Dimension": "4",
-            "1.7 Order of Magnitude": "6",
-            "1.8 The Structure of World": "6",
-            "Worked Out Examples": "7",
-            "Questions for Short Answer": "8",
-            "Objective I": "9",
-            "Objective II": "9",
-            "Exercises": "9"
+            "A Brief History of Refrigeration": "1",
+            "Systeme International d'Unites (SI Units)": "4",
+            "Thermodynamic Systems, State, Properties, Processes, Heat and Work": "8",
+            "First Law of Thermodynamics": "9",
+            "Second Law of Thermodynamics": "11",
+            "Non-flow Processes": "11",
+            "Steady-Flow Processes": "12",
+            "Thermodynamic State of a Pure Substance": "13",
+            "Heat Exchange Processes": "16",
+            "Production of Low Temperatures": "18",
+            "Saturation Pressure versus Saturation Temperature Relationship": "22",
+            "The Gaseous Phase: Equation of State": "23",
+            "Clapeyron Equation": "26",
+            "Property Relations": "27",
+            "Thermodynamic Properties of Refrigerants": "27",
+            "Modes of Heat Transfer": "35",
+            "Laws of Heat Transfer": "36",
+            "Electrical Analogy": "39",
+            "Steady-State Conduction": "42",
+            "Heat Transfer from Extended Surface": "49",
+            "Unsteady-State Conduction": "53",
+            "Forced Convection Correlations": "54",
+            "Free Convection Correlations": "55",
+            "Design of Heat Exchangers": "55",
+            "Mass Transfer": "57",
+            "Analogy between Momentum, Heat and Mass Transfer": "58",
+            "References": "60",
+            "Revision Exercises": "61"
         }
     ],
     [
-        "Chapter 2: Physics and Mathematics",
+        "Chapter 2: Refrigerating Machine and Reversed Carnot Cycle",
         {
-            "2.1 Vectors and Scalars": "12",
-            "2.2 Equality of Vectors": "13",
-            "2.3 Addition of Vectors": "13",
-            "2.4 Multiplication of a Vector by a Number": "14",
-            "2.5 Subtraction of Vectors": "14",
-            "2.6 Resolution of Vectors": "14",
-            "2.7 Dot Product or Scalar Proudct of Two Vectors": "15",
-            "2.8 Cross Product or Vector Product of Two Vectors": "16",
-            "2.9 Differential Calculus: dy/dx as Rate Measurer": "17",
-            "2.10 Maxima and Minima": "18",
-            "2.11 Integral Calculus": "19",
-            "2.12 Significant Digits": "21",
-            "2.13 Significant Digits in Calculations": "22",
-            "2.14 Errors in Measurement": "23",
-            "Worked Out Examples": "24",
-            "Questions for Short Answer": "27",
-            "Objective I": "28",
-            "Objective II": "28",
-            "Exercises": "29"
+            "2.1 Refrigerating Machines": "64",
+            "2.2 A Refrigerating Machine-The Second Law Interpretation": "64",
+            "2.3 Heat Engine, Heat Pump and Refrigerating Machine": "67",
+            "2.4 Best Refrigeration Cycle: The Carnot Principle": "71",
+            "2.5 Vapour as a Refrigerant in Reversed Carnot Cycle": "80",
+            "2.6 Gas as a Refrigerant in Reversed Carnot Cycle": "82",
+            "2.7 Limitations of Reversed Carnot Cycle": "84",
+            "2.8 Actual Refrigeration Systems": "85",
+            "Revision Exercises": "86"
         }
     ],
     [
-        "Chapter 3: Rest and Motion: Kinematics",
+        "Chapter 3: Vapour Compression System",
         {
-            "3.1 Rest and Motion": "31",
-            "3.2 Distance and Displacement": "31",
-            "3.3 Average Speed and Instantaneous Speed": "32",
-            "3.4 Average Velocity and Instantaneous Velocity": "33",
-            "3.5 Average Acceleration and Instantaneous Acceleration": "34",
-            "3.6 Motion in a Straight Line": "34",
-            "3.7 Motion in a Plane": "37",
-            "3.8 Projectile Motion": "38",
-            "3.9 Change of Frame": "39",
-            "Worked Out Examples": "41",
-            "Questions for Short Answer": "48",
-            "Objective I": "49",
-            "Objective II": "50",
-            "Exercises": "51"
+            "3.1 Modifications in Reversed Carnot Cycle with Vapour as a Refrigerant": "87",
+            "3.2 Vapour Compression Cycle": "89",
+            "3.3 Vapour Compression System Calculations": "91",
+            "3.4 Ewing's Construction": "99",
+            "3.5 Standard Rating Cycle and Effect of Operating Conditions": "103",
+            "3.6 Actual Vapour Compression Cycle": "114",
+            "3.7 Standard Rating Cycle for Domestic Refrigerators": "118",
+            "3.8 Heat Pump": "121",
+            "3.9 Second Law Efficiency of Vapour Compression Cycle": "122",
+            "References": "123",
+            "Revision Exercises": "124"
         }
     ],
     [
-        "Chapter 4: The Forces",
+        "Chapter 4: Refrigerants",
         {
-            "4.1 Introduction": "56",
-            "4.2 Gravitational Force": "56",
-            "4.3 Electromagnetic (EM) Force": "57",
-            "4.4 Nuclear Forces": "59",
-            "4.5 Weak Forces": "59",
-            "4.6 Scope of Classical Physics": "59",
-            "Worked Out Examples": "60",
-            "Questions for Short Answer": "61",
-            "Objective I": "62",
-            "Objective II": "62",
-            "Exercises": "63"
+            "4.1 A Survey of Refrigerants": "128",
+            "4.2 Designation of Refrigerants": "129",
+            "4.3 Comparative Study of Methane Derivatives in Use Before the Year 2000": "133",
+            "4.4 Comparative Study of Ethane Derivatives in Use Before the Year 2000": "134",
+            "4.5 Refrigerants in Use after the Year 2000": "135",
+            "4.6 Selection of a Refrigerant": "136",
+            "4.7 Thermodynamic Requirements": "137",
+            "4.8 Chemical Requirements": "147",
+            "4.9 Physical Requirements": "150",
+            "4.10 Ozone Depletion Potential and Global Warming Potential of CFC Refrigerants": "153",
+            "4.11 Substitutes for CFC Refrigerants": "154",
+            "4.12 Substitutes for CFC 12": "157",
+            "4.13 Substitutes for CFC 11": "169"
         }
     ],
     [
-        "Chapter 5: Newton's Laws of Motion",
+        "Chapter 4: Refrigerants",
         {
-            "5.1 First Law of Motion": "64",
-            "5.2 Second Law of Motion": "65",
-            "5.3 Working with Newton's First and Second Law": "66",
-            "5.4 Newton's Third Law of Motion": "68",
-            "5.5 Pseudo Forces": "69",
-            "5.6 The Horse and the Cart": "71",
-            "5.7 Inertia": "71",
-            "Worked Out Examples": "72",
-            "Questions for Short Answer": "76",
-            "Objective I": "77",
-            "Objective II": "78",
-            "Exercises": "79"
+            "4.14 Substitutes for HCFC 22": "170",
+            "4.15 Substitutes for CFC R 502": "171",
+            "4.16 Atmospheric Gases as Substitutes for CFC Refrigerants": "171",
+            "4.17 Using Mixed Refrigerants": "174",
+            "4.18 Binary Mixtures": "174",
+            "4.19 Classification of Mixtures": "180",
+            "4.20 Evaluation of Thermodynamic Properties\nof R 290/R 600a Mixtures": "188",
+            "4.21 Azeotropic Mixtures": "191",
+            "4.22 Use of Minimum and Maximum Boiling Azeotropes": "193",
+            "4.23 Non-isothermal Refrigeration": "195",
+            "4.24 Refrigerant Piping and Design": "201",
+            "4.25 Lubricants in Refrigeration Systems": "207",
+            "4.26 Secondary Refrigerants": "208",
+            "References": "210",
+            "Revision Exercises": "212"
         }
     ],
     [
-        "Chapter 6: Friction",
+        "Chapter 5: Multipressure Systems",
         {
-            "6.1 Friction as the Component of Contact Force": "85",
-            "6.2 Kinetic Friction": "86",
-            "6.3 Static Friction": "87",
-            "6.4 Laws of Friction": "88",
-            "6.5 Understanding Friction at Atomic Level": "88",
-            "6.6 A Laboratory Method to Measure Friction Coefficient": "89",
-            "Worked Out Examples": "91",
-            "Questions for Short Answer": "95",
-            "Objective I": "96",
-            "Objective II": "97",
-            "Exercises": "97"
+            "5.1 Introduction": "214",
+            "5.2 Multistage or Compound Compression": "214",
+            "5.3 Multi-Evaporator Systems": "222",
+            "5.4 Cascade Systems": "226",
+            "5.5 Solid Carbon Dioxide-Dry Ice": "228",
+            "5.6 Manufacture of Solid Carbon Dioxide": "228",
+            "5.7 System Practices for Multi-stage Systems": "233",
+            "References": "234",
+            "Revision Exercises": "234"
         }
     ],
     [
-        "Chapter 7: Circular Motion",
+        "Chapter 6: Refrigerant Compressors",
         {
-            "7.1 Angular Variables": "101",
-            "7.2 Unit Vectors along the Radius and the Tangent": "102",
-            "7.3 Acceleration in Circular Motion": "102",
-            "7.4 Dynamics of Circular Motion": "103"
+            "6.1 Types of Compressors": "236",
+            "6.2 Thermodynamic Processes During Compression": "239",
+            "6.3 Volumetric Efficiency of Reciprocating Compressors": "242",
+            "6.4 Effect of Clearance on Work": "246",
+            "6.5 Principal Dimensions of a Reciprocating Compressor": "247",
+            "6.6 Performance Characteristics of Reciprocating Compressors": "248",
+            "6.7 Capacity Control of Reciprocating Compressors": "253",
+            "6.8 Construction Features of Reciprocating Compressors": "256",
+            "6.9 Rotary Compressors": "256",
+            "6.10 Screw Compressors": "257",
+            "6.11 Scroll Compressors": "259",
+            "6.12 Centrifugal Compressors": "260",
+            "6.13 Performance Characteristics of a Centrifugal Compressor": "268"
+        }
+    ],
+    [
+        "Chapter 6: Refrigerant Compressors",
+        {
+            "6.14 : Alternatives to R 11 (CFC 11)": "274",
+            "6.15 : Comparison of Performance of Reciprocating and Centrifugal Compressors": "281",
+            "References": "282",
+            "Revision Exercises": "283"
+        }
+    ],
+    [
+        "Chapter 7: Condensers",
+        {
+            "7.1 : Heat Rejection Ratio": "286",
+            "7.2 : Types of Condensers": "286",
+            "7.3 : Heat Transfer in Condensers": "288",
+            "7.4 : Wilson's Plot": "300",
+            "References": "301",
+            "Revision Exercises": "302"
+        }
+    ],
+    [
+        "Chapter 8: Expansion Devices",
+        {
+            "8.1 : Types of Expansion Devices": "303",
+            "8.2 : Automatic or Constant-Pressure Expansion Valve": "303",
+            "8.3 : Thermostatic-Expansion Valve": "305",
+            "8.4 : Capillary Tube and Its Sizing": "311",
+            "References": "317",
+            "Revision Exercises": "317"
+        }
+    ],
+    [
+        "Chapter 9: Evaporators",
+        {
+            "9.1 : Types of Evaporators": "319",
+            "9.2 : Heat Transfer in Evaporators": "322",
+            "9.3 : Extended Surface Evaporators": "329",
+            "9.4 : Augmentation of Boiling Heat Transfer": "334",
+            "9.5 : Pressure Drop in Evaporators": "340",
+            "References": "347",
+            "Revision Exercises": "348"
+        }
+    ],
+    [
+        "Chapter 10: Complete Vapour Compression System",
+        {
+            "10.1 : The Complete System": "349",
+            "10.2 : Graphical Method": "349",
+            "10.3 : Analytical Method": "352",
+            "10.4 : Newton-Raphson Method": "355",
+            "10.5 : Optimal Design of Evaporator": "358",
+            "10.6 : Installation, Service and Maintenance of Vapour Compression Systems": "359",
+            "References": "365",
+            "Revision Exercises": "366"
+        }
+    ],
+    [
+        "Chapter 11: Gas Cycle Refrigeration",
+        {
+            "11.1 Limitations of Carnot Cycle with Gas as a Refrigerant": "367",
+            "11.2 Reversed Brayton or Joule or Bell Coleman Cycle": "367",
+            "11.3 Application to Aircraft Refrigeration": "371",
+            "11.4 Ranque-Hilsch Tube": "383",
+            "11.5 The Joule-Thomson Coefficient and Inversion Curve": "385",
+            "11.6 Reversed Stirling Cycle": "389",
+            "References": "399",
+            "Revision Exercises": "400"
+        }
+    ],
+    [
+        "Chapter 12: Vapour-Absorption System",
+        {
+            "12.1 Simple Vapour-Absorption System": "402",
+            "12.2 Maximum Coefficient of Performance of a\nHeat Operated Refrigerating Machine": "403",
+            "12.3 Common Refrigerant-Absorbent Systems": "405",
+            "12.4 Modifications to Simple Vapour-Absorption System": "406",
+            "12.5 Actual Vapour-Absorption Cycle and its Representation\non Enthalpy-Composition Diagram": "411",
+            "12.6 Representation of Vapour Absorption Cycle\non In p - Diagram": "419",
+            "12.7 Practical Single-effect Water-Lithium\nBromide Absorption Chiller": "423",
+            "12.8 Double-effect H2O \u2013 LiBr2 Absorption System": "428",
+            "12.9 Electrolux Refrigerator": "431",
+            "12.10 New Mixtures for Absorption System": "432",
+            "References": "434",
+            "Revision Exercises": "435"
+        }
+    ],
+    [
+        "Chapter 13: Ejector-Compression System",
+        {
+            "13.1 Water as a Refrigerant": "437",
+            "13.2 Steam Ejector System": "438",
+            "13.3 Theoretical Analysis of the Steam Ejector": "439",
+            "References": "445",
+            "Revision Exercises": "445"
+        }
+    ],
+    [
+        "Chapter 14: Properties of Moist Air",
+        {
+            "14.1 Brief History of Air Conditioning": "446",
+            "14.2 Working Substance in Air Conditioning": "447",
+            "14.3 Psychrometric Properties": "452",
+            "14.4 Wet Bulb Temperature (WBT)": "459"
+        }
+    ],
+    [
+        "Chapter 15: Psychrometry of Air-Conditioning Processes",
+        {
+            "15.1 Mixing Process": "474",
+            "15.2 Basic Processes in Conditioning of Air": "477",
+            "15.3 Psychrometric Processes in Air-Conditioning Equipment": "482",
+            "15.4 Simple Air-Conditioning System and State and Mass Rate of Supply Air": "493",
+            "15.5 Summer Air Conditioning-apparatus Dew Point": "497",
+            "15.6 Winter Air Conditioning": "508",
+            "Revision Exercises": "511"
+        }
+    ],
+    [
+        "Chapter 16: Design Conditions",
+        {
+            "16.1 Choice of Inside Design Conditions": "514",
+            "16.2 Comfort": "519",
+            "16.3 Outside Design Conditions": "521",
+            "16.4 Choice of Supply Design Conditions": "522",
+            "16.5 Critical Loading Conditions": "526",
+            "16.6 Clean Spaces": "528",
+            "References": "528",
+            "Revision Exercises": "528"
+        }
+    ],
+    [
+        "Chapter 17: Solar Radiation",
+        {
+            "17.1 Distribution of Solar Radiation": "530",
+            "17.2 Earth-Sun Angles and their Relationships": "535",
+            "17.3 Time": "541",
+            "17.4 Wall Solar Azimuth Angle and Angle of Incidence": "543",
+            "17.5 Direct Solar Radiation on a Surface": "543",
+            "17.6 Diffuse Sky Radiation on a Surface": "545",
+            "17.7 Heat Gain through Glass": "547",
+            "17.8 Shading from Reveals, Overhangs and Fins": "551",
+            "17.9 Effect of Shading Device": "555",
+            "17.10 Tables for Solar Heat Gain through Ordinary Glass": "556",
+            "17.11 The Flat-Plate Solar Collector": "568",
+            "References": "571",
+            "Revision Exercises": "572"
+        }
+    ],
+    [
+        "Chapter 18: Heat Transfer through Building Structures",
+        {
+            "18.1 : Fabric Heat Gain": "574",
+            "18.2 : Overall Heat-Transmission Coefficient": "574",
+            "18.3 : Periodic Heat Transfer through Walls and Roofs": "581",
+            "18.4 : Finite Difference Approximation of One-Dimensional Heat Transfer Through Wall": "584",
+            "18.5 : Empirical Methods to Evaluate Heat Transfer through Walls and Roofs": "594",
+            "18.6 : Natural Ventilation through Infiltration": "606",
+            "18.7 : Passive Heating and Cooling of Buildings": "611",
+            "18.8 : Water Vapour Transfer through Structures": "614",
+            "References": "618",
+            "Revision Exercises": "618"
+        }
+    ],
+    [
+        "Chapter 19: Load Calculations and Applied Psychrometrics",
+        {
+            "19.1 : Preliminary Considerations": "621",
+            "19.2 : Internal Heat Gains": "622",
+            "19.3 : System Heat Gains": "625",
+            "19.4 : Break-up of Ventilation Load and Effective Sensible Heat Factor": "627",
+            "19.5 : Cooling Load Estimate": "628",
+            "19.6 : Heating Load Estimate": "629",
+            "19.7 : Psychrometric Calculations for Cooling": "635",
+            "19.8 : Selection of Air-Conditioning Apparatus for Cooling and Dehumidification": "640",
+            "19.9 : Evaporative Cooling": "651",
+            "19.10 : Building Requirements and Energy Conservation in Air Conditioned Buildings": "653",
+            "References": "659",
+            "Revision Exercises": "659"
+        }
+    ],
+    [
+        "Chapter 20: Design of Air-Conditioning Apparatus",
+        {
+            "20.1 : Air-Conditioning Apparatus": "662",
+            "20.2 : Heat and Moisture Transfer in Air-Conditioning Apparatus": "662",
+            "20.3 : Coil Equipment-Design of Cooling and Dehumidifying Coils": "668",
+            "20.4 : Optimal Design of Cooling and Dehumidifying Coils": "682",
+            "20.5 : Spray Equipment-Design of Air Washers and Cooling Towers": "683",
+            "References": "694",
+            "Revision Exercises": "694"
+        }
+    ],
+    [
+        "Chapter 21: Transmission and Distribution of Air",
+        {
+            "21.1 : Room Air Distribution": "697",
+            "21.2 : Total, Static and Velocity Pressures": "705",
+            "21.3 : Friction Loss in Ducts": "709",
+            "21.4 : Dynamic Losses in Ducts": "713",
+            "21.5 : Air Flow through a Simple Duct System": "726",
+            "21.6 : Air-duct Design": "729",
+            "21.7 : Processing, Transmission and Distribution of Air in Clean Rooms": "741",
+            "21.8 : Air Locks, Air Curtains and Air Showers": "744",
+            "References": "744",
+            "Revision Exercises": "744"
+        }
+    ],
+    [
+        "Chapter 22: Fans",
+        {
+            "22.1 : Types of Fans": "747",
+            "22.2 : Fan Characteristics": "747",
+            "22.3 : Centrifugal Fans": "748",
+            "22.4 : Axial-Flow Fans": "752",
+            "22.5 : System Characteristics": "753",
+            "22.6 : Fan Arrangements": "759",
+            "References": "764",
+            "Revision Exercises": "764"
+        }
+    ],
+    [
+        "Chapter 23: Refrigeration and Air Conditioning Control",
+        {
+            "23.1 : Basic Elements of Control": "766",
+            "23.2 : Detecting Elements": "767",
+            "23.3 : Actuating Elements": "771",
+            "23.4 : Electric Motors and Controls": "775",
+            "23.5 : Controls in Refrigeration Equipment": "780",
+            "23.6 : Controlling Room Conditions at Partial Load": "783",
+            "23.7 : Induction System": "789",
+            "References": "795",
+            "Revision Exercises": "795"
+        }
+    ],
+    [
+        "Chapter 24: Applications in Food Refrigeration/Processing and Industrial Air Conditioning",
+        {
+            "24.1 : Typical Examples of Food Processing by Refrigeration and Storage": "797",
+            "24.2 : Transport Refrigeration": "806",
+            "24.3 : Cooling and Heating of Foods": "810",
+            "24.4 : Freezing of Foods": "814"
+        }
+    ],
+    [
+        "Chapter 24: Applications in Food Refrigeration/Processing and Industrial Air Conditioning",
+        {
+            "24.5 : Freeze Drying": "825",
+            "24.6 : Heat Drying of Foods": "834",
+            "24.7 : Tunnels Ventilation": "843",
+            "24.8 : Station Air Conditioning": "844",
+            "24.9 : Mine Air Conditioning and Ventilation": "845",
+            "References": "847",
+            "Revision Exercises": "848"
+        }
+    ],
+    [
+        "Appendix A: Thermodynamic Properties Correlations for Refrigerants",
+        {
+            "A.1 : Correlations for Thermodynamic Properties of R 12": "850",
+            "A.2 : Correlations for Thermodynamic Properties of R 134a": "852",
+            "A.3 : Correlations for Thermodynamic Properties of R 152a": "854",
+            "A.4 : Correlations for Thermodynamic Properties of R 22": "856",
+            "A.5 : Correlations for Thermodynamic Properties of R 290 and R 600a": "858"
+        }
+    ],
+    [
+        "Appendix B: Tables",
+        {
+            "B.1 : Thermophysical Properties of Air at Atmospheric Pressure": "861",
+            "B.2 : Thermophysical Properties of Saturated Water and Steam": "862",
+            "B.3 : Thermophysical Properties of Refrigerants": "863",
+            "B.4 : Thermodynamic Properties of R 744 (Carbon Dioxide)": "865",
+            "B.5 : Thermodynamic Properties of R290 (Propane)": "867",
+            "B.6 : Thermodynamic Properties of R 22": "871",
+            "B.7 : Thermodynamic Properties of R717 (Ammonia)": "875",
+            "B.8 : Thermodynamic Properties of R12": "878",
+            "B.9 : Thermodynamic Properties of R134a": "879",
+            "B.10 : Thermodynamic Properties of R 152a": "882",
+            "B.11 : Thermodynamic Properties of R 600a (Isobutane)": "886",
+            "B.12 : Thermodynamic Properties of R 123 (Trifluoro Ethane)": "890",
+            "B.13 : Thermodynamic Properties of R 245 fa\n(Pentafluoro Propane)": "891",
+            "B.14 : Thermodynamic Properties of R 404A\n[R125/R143a/R134a(44/52/4)]": "892",
+            "B.15 : Thermodynamic Properties of R407C\n[R32/R125/R134a(23/25/42)": "893",
+            "B.16 : Thermodynamic Properties of R410A [R32/R125/(50/50)]": "894",
+            "B.17 : Thermodynamic Properties of R507A [R125/R143a(50/50)]": "895",
+            "B.18 : Thermodynamic Properties of Saturated R11": "896",
+            "B.19 : Thermodynamic Properties of R290/R600a Mixture": "897",
+            "B.20 : Thermodynamic Properties of Water-Lithium Bromide Solutions": "902",
+            "B.21 : Thermodynamic Properties of R718 (Water)": "903",
+            "B.22 : Outdoors Design Data": "914",
+            "B.23 : The Error Function": "915",
+            "B.24 : Conversion Tables": "916"
+        }
+    ],
+    [
+        "Appendix C: Chart Ex. Sheets",
+        {
+            "C.1: Pressure Enthalpy Diagram for R 123": "N/A",
+            "C.2: Pressure Enthalpy Diagram for R 134a": "N/A",
+            "C.3: Pressure Diagram of R 22 Vapour": "N/A",
+            "C.4: Pressure Enthalpy Diagram of R 717 (Ammonia) Vapour": "N/A",
+            "C.5: Pressure Enthalpy Diagram of R 11 Vapour": "N/A",
+            "C.6: Pressure Enthalpy Diagram for CO2": "N/A",
+            "C.7: Psychrometric Chart Barometric Pressure 101.325 kPa": "N/A",
+            "C.8: Inp-1/T Diagram for H2O-LiBr2 Solutions": "N/A",
+            "C.9: Enthalpy-Concentration Diagram for H2O-LiBr2 Solutions": "N/A",
+            "C.10: Enthalpy-Composition Diagram for NH3-H2O System": "N/A"
         }
     ]
 ]

@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import os
 from trim import trim_pdf 
 import json  
+import time
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI"))
@@ -26,14 +27,14 @@ def extract_toc_and_parse(pdf_path, toc_start_pdf_pg, toc_end_pdf_pg):
 If the content starts with subtopics, i.e. the chapter name is missing, then use the last chapter from the previous page for context:
 Last Chapter name: {last_chapter if last_chapter else "None"}
 
-Please extract the content into this format. please do not change the format . the format contains a list of tuples. each tuple contains a chapter name and a dictionary of topics with their page numbers. :
+Please extract the content into this format. please do not change the format . the format contains a list of lists. each list contains a chapter name and a dictionary of topics with their page numbers. :
 [
-  ("Chapter X: Chapter Title", {{
+  ["Chapter X: Chapter Title", {{
       "Topic x : Topic Title" : "Page Number",
       "Topic y : Topic Title" : "Page Number",
       ...
       "Topic z : Topic Title" : "Page Number"
-  }}),
+  }}],
   ...
 ]
 
@@ -48,6 +49,7 @@ Please extract the content into this format. please do not change the format . t
             
         }).text
         except:
+            time.sleep(5)
             response = model.generate_content([sample_file, prompt], safety_settings={
             HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
             HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
