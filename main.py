@@ -22,10 +22,10 @@ def extract_toc_and_parse(pdf_path, toc_start_pdf_pg, toc_end_pdf_pg):
         sample_file = genai.upload_file(path=single_page_pdf_path, display_name=f"page_{page_num}")
 
         # Build the prompt with context from the last chapter
-        prompt = f"""Please extract the Table of Contents from the PDF file provided.
+        prompt = f"""Please extract the Table of Contents from the BOOK PDF file provided. there can be many pages for table of contents, and current pdf might be one of them. 
 
-If the content starts with subtopics, i.e. the chapter name is missing, then use the last chapter from the previous page for context:
-Last Chapter name: {last_chapter if last_chapter else "None"}
+If this taable of contents page starts with subtopics, i.e. the chapter name (main topic) is missing, it means the main topic name was present in previous page . In this case, please use the below chapter name (main topic):
+Chapter name: {last_chapter if last_chapter else "None"} , and add the subtopics to it.
 
 Please extract the content into this format. please do not change the format . the format contains a list of lists. each list contains a chapter name and a dictionary of topics with their page numbers. :
 [
